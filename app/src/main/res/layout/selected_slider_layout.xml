@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollIndicatorContainer"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imvFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#26000000"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:tint="@color/white_two"
+        tools:srcCompat="@drawable/shp_res_background_milky" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imvSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:shadowColor="#26000000"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        tools:srcCompat="@drawable/circle_selected_slider" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imvThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:shadowColor="#26000000"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        tools:srcCompat="@drawable/circle_selected_slider" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imvFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:shadowColor="#26000000"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        tools:srcCompat="@drawable/circle_selected_slider" />
+
+
+
+</LinearLayout>
