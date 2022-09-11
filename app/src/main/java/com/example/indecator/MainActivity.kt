@@ -44,10 +44,10 @@ class MainActivity : AppCompatActivity() {
     }
     // am adding the dot indicator at run time
 
-    //this done for the first time the draw of dots and then next when the user scroll i run this function
+    //this done by add bots base on the list size and then draw line where current user scroll
 
    /*
-       draw new dot in the indicator
+       draw new dot in the indicator (draw all the dots fro the first time)
    */
     private fun addDot(list: List<Model>, linearLayout: LinearLayout) {
        // here am check how much the item and add the dot at run time
@@ -110,6 +110,7 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
+    // draw the line where the current position of the user in the recyclerview
     private fun drawIndicatorOfScrollPositionDynamic(linearLayout: LinearLayout,position:Int){
 
         initIndicatorDotDrawing(linearLayout)
